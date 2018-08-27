@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--有关menu的创建问题主要-->
+
+
+<!--有关menu的创建问题主要注意以下几点：
+   1.showAsAction的命名空间是app而非android。
+   2.Toolbar有两种实现效果一种是代替ActionBar另外一种是作为单独的控件存在。
+     1> 作为单独的控件需要调用两个关键的方法：initMenu(),setOnMenuItemClickListener()
+     2> 作为ActionBar使用的话一方面要通过修改style属性将style中的AppTheme修改为NoActionBar
+        此外重写Activity中的两个方法并且调用setSupportActionBar();
+-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -9,6 +17,7 @@
         android:title="Backup"
         app:showAsAction="always"
         />
+
 
     <item
         android:id="@+id/delete"
