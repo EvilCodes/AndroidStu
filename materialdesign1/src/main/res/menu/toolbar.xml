@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--有关menu的创建问题主要-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/back_nomal"
+        android:title="Backup"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/bg_cart_selected"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/menu_item_category_normal"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+</menu>
