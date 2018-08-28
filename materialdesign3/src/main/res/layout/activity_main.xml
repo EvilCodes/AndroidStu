@@ -17,7 +17,14 @@
             />
     </FrameLayout>
 
-
+<!-- 有关DrawerLayout需要注意的关键点：
+    1. 首先要明确的是一般第一个控件代表的是主界面
+    2. 第二个控件代表的是抽屉界面
+    3. 在抽屉界面中必须要有的属性就是layout_gravity
+    4. 抽屉界面使用NavigationView可以实现更号的效果
+        1> 首先需要注意的命名控件app的命名
+        2> 明确headerlayout对应的是LayoutResource
+        3> menu后边对应的menu对应的资源文件（可以通过设计group以及item进行设计）-->
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
