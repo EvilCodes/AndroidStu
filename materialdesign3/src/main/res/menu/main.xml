@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/delte_name"
+        android:id="@+id/delete"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"
+        />
+    <item
+        android:title="@string/add_name"
+        android:id="@+id/add"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="@string/update_name"
+        android:id="@+id/update"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="withText"
+        />
+    <item
+        android:title="@string/search_name"
+        android:id="@+id/search"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="never"
+        />
+</menu>

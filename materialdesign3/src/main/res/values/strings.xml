@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MaterialDesign3</string>
+    <string name="delte_name">删除</string>
+    <string name="add_name">增加</string>
+    <string name="update_name">更改</string>
+    <string name="search_name">查找</string>
 </resources>
