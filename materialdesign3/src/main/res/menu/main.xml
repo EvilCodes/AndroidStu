@@ -2,6 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <group android:checkableBehavior="single">
+
     <item
         android:title="@string/delte_name"
         android:id="@+id/delete"
@@ -26,4 +28,5 @@
         android:icon="@mipmap/ic_launcher"
         app:showAsAction="never"
         />
+    </group>
 </menu>
