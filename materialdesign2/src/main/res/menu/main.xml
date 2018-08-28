@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/addData"
+        android:icon="@mipmap/ic_launcher"
+        android:title="增加"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/delData"
+        android:icon="@mipmap/ic_launcher"
+        android:title="删除"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/update"
+        android:icon="@mipmap/ic_launcher"
+        android:title="更改"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
