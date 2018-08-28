@@ -1,1 +1,1 @@
-include ':app', ':materialdesign1', ':materialdesign2'
+include ':app', ':materialdesign1', ':materialdesign2', ':materialdesign3'
